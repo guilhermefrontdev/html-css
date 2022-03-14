@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+body {
+    font-family: 'idroid', sans-serif;
+    background-color: #84E1AD;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #37C777, #1A5C38);
+    height: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+    padding-top: 30px;
+}
+
+header > h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    text-align: center;
+    font-weight: normal;
+    padding-left: 38%;
+    padding-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main {
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+h1, h2 {
+    color: #1A5C38;
+}
+
+.subtitulo {
+    background-image: linear-gradient(to right, #69ce958a, white);
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 10mm;
+}
+
+img {
+    width: 700px;
+}
+
+.android {
+    width: auto;
+    padding-left: 200px;
+}
+
+aside {
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    background-color: #CEF2DE;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside > h2 {
+    background-color: #37C777;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 4px;
+}
+
+aside > p {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    font-weight: bold;
+}
+
+aside > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+aside > p > a:hover {
+    font-weight: bolder;
+    color: #1A5C38;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1A5C38;
+    height: 30px;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
